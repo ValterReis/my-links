@@ -5,6 +5,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(49, 47, 47);
 }
 
 img {
@@ -12,11 +13,12 @@ img {
     height: 320px;
     margin-top: 20px;
     border-radius: 5%;
+    border: solid 5px blue;
 }
 
 div {
     width: 320px;
-    height: 830px;
+    height: 860px;
 }
 
 h1 {
@@ -44,9 +46,14 @@ a {
     display: block;
     margin-top: 18px;
     text-decoration: none;
-    background-color: greenyellow;
+    background-color: blue;
     padding: 18px;
     border-radius: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: green;
 }
 
 footer {
